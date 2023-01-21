@@ -1,0 +1,18 @@
+
+
+all the links in the editorial tab
+response.css('div.category a::attr(href)').getall()
+
+
+X path for Paragraph content of the the link below
+response.css('div.heading_container h1::text').get(),
+
+https://www.thesangaiexpress.com/manipuri//Encyc/2023/1/6/-K-K-K-i-yK-K-i-K-K-t-A-.html
+
+//*[@id="NewsComp-fjId-mQfS-GbEf-lvsG"]/div[5]/text()[1]
+//*[@id="NewsComp-fjId-mQfS-GbEf-lvsG"]/div[5]/text()[2]
+//*[@id="NewsComp-fjId-mQfS-GbEf-lvsG"]/div[5]/text()[3]
+
+
+heading css 
+response.css('div.heading_container h1::text').get()
